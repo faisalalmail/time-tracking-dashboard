@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+/* div {border:1px solid white} */
+
+
+:root {
+/*     Primary colors */
+    --Orange300 : hsl(15, 100%, 70%); /* work */
+    --Blue300 /* (play) */: hsl(195, 74%, 62%);
+    --Pink400 /* (study) */: hsl(348, 100%, 68%);
+    --Green400 /* (exercise) */: hsl(145, 58%, 55%);
+    --Purple700 /* (social) */: hsl(264, 64%, 52%);
+    --Yellow300 /* (self care) */: hsl(43, 84%, 65%);
+    --Purple600: hsl(246, 80%, 60%);
+
+
+/* ### Neutral */
+
+    --Navy950: hsl(226, 43%, 10%);
+    --navy900: hsl(235, 46%, 20%);
+    --navy800: hsl(235,41%,34%);
+    --Purple500: hsl(235, 45%, 61%);
+    --Navy200: hsl(236, 100%, 87%);
+
+
+/* ### spacing*/
+
+    --spacing-100:8px;
+    --spacing-200:16px;
+    --spacing-300:24px;
+    --spacing-400:32px;
+    --spacing-500:40px;
+
+}
+
+.tp1 {
+    font-size: 56px;
+    line-height: 66px;
+    font-weight: 300;
+}
+
+.tp2 {
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: 300;
+}
+
+.tp3 {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 300;
+}
+
+.tp4 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+.tp5m {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 500;
+}
+
+.tp5r{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: var(--Navy200);
+}
+
+.tp5r:hover,.tp5r:active{
+
+    color: white;
+}
+
+.tp6 {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    color: var(--Navy200);
+    margin-block-end: 0.5rem;
+}
+
+html{
+    background-color: var(--Navy950);
+    color: white;
+}
+
+.activity {
+    
+    width: 85%;
+    margin: auto;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    background-color: var(--navy900);
+    border-radius: 1rem;
+    overflow: hidden;
+
+}
+
+.cp{
+
+    width: 85%;
+    margin: auto;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    background-color: var(--navy900);
+    border-radius: 1rem;
+    overflow: hidden;
+
+
+}
+
+.user-img{
+    margin-inline-end: 1rem;
+}
+
+     .user-name{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300;
+    }
+
+.activity-image{
+    height: 3rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    margin-bottom: -0.6rem;
+    overflow: hidden;
+    align-items: end;
+    align-content: end;
+        position: relative; /* Add this */
+    z-index: 1;  
+    
+}
+
+.act-img{
+    object-fit: cover;
+    float: right;
+    margin: -0.5rem 1rem 0rem 0rem;
+    
+}
+
+.Work{
+    background-color: var(--Orange300);
+    background-image: url("images/icon-work.svg");
+    background-repeat: no-repeat;
+    background-position: right 1rem bottom -1.2rem;
+
+}
+
+.Play {
+    background-color: var(--Blue300);
+    background-image: url("images/icon-play.svg");
+    background-repeat: no-repeat;
+    background-position: right 1rem bottom -1.5rem;
+}
+
+.Study{
+    background-color: var(--Pink400);
+    background-image: url("images/icon-study.svg");
+    background-repeat: no-repeat;
+    background-position: right 1rem bottom -1.5rem;
+}
+
+.Exercise{
+    background-color: var(--Green400);
+    background-image: url("images/icon-exercise.svg");
+    background-repeat: no-repeat;
+    background-position: right 1rem bottom -1rem;
+}
+
+.Social{
+    background-color: var(--Purple700);
+    background-image: url("images/icon-social.svg");
+    background-repeat: no-repeat;
+    background-position: right 1rem bottom -2rem;
+}
+
+.Self-Care{
+    background-color: var(--Yellow300);
+    background-image: url("images/icon-self-care.svg");
+    background-repeat: no-repeat;
+    background-position: right 1rem bottom -1rem;
+}
+
+
+.details-card {
+    background-color: var(--navy900);
+    padding: 1.5rem;
+    border-radius: 1rem;
+        position: relative; /* Add this */
+    z-index: 2;   
+}
+
+
+.activity-name, .more-details {
+    display: inline-block;
+}
+
+.top-row{
+    margin-block-end: 0.5rem;
+}
+
+
+
+
+.bottom-row{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.dp{
+    border:3px solid white;
+    border-radius: 50%;
+    width: 4rem;
+}
+
+.user-details{
+    background-color: var(--Purple600);
+    border-radius: 1rem;
+    padding: 2rem;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.inline {
+    display: inline-block;
+  
+   
+}
+
+.frequency{
+    padding: 1.5rem 2rem;
+/*     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    float: right;
+}
+
+.align-bottom {
+    align-content: center;
+    color: var(--Navy200);
+}
+
+.freq:hover{
+    color: var(--Navy200);
+}
+
+@media only screen and (min-width:768px){
+    .report{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 2rem;
+        width: 85%;
+        margin: auto;
+    }
+.activity{
+    width: 100%;
+    margin: auto;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    background-color: var(--navy900);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.tp3{
+    font-size: 56px;
+    line-height: 66px;
+    font-weight: 300;
+}
+
+
+.bottom-row{
+flex-direction: column;
+}
+
+.frequency{
+    max-width: 60%;
+    margin: auto;
+}
+
+.tp3{
+    margin-block-start: 1rem;
+    margin-block-end: 0.5rem;
+}
+}
+
+@media only screen and (min-width:1440px){
+    .dashboard{
+        display: flex;
+        width:70%;
+        margin: auto;
+        gap:2rem;
+    }
+    main{
+    
+        height: 100vh;
+        align-items: center;
+        align-content: center;
+    }
+
+    .report{
+        grid-column-gap: 2rem;
+    }
+
+    .cp{
+        max-width: 23%;
+    }
+
+    .user-details{
+        flex-direction: column;
+        padding-bottom: 4rem;
+    }
+
+     .user-name{
+            font-size: 40px;
+    line-height: 47px;
+    font-weight: 300;
+    }
+
+    .frequency{
+        display: block;
+    }
+
+    .user-img{
+    margin-inline-end: 0rem;
+    margin-right: auto;
+    margin-block-end: 2rem;
+    }
+
+
+
+.frequency{
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 2rem;
+margin-left: 0;
+    
+}
+.details-card:hover,.details-card:active{
+background-color: var(--navy800);
+
+}
+}
