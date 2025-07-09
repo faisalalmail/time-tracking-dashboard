@@ -13,8 +13,7 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -30,20 +29,16 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![mobile](screenshots/mobile.png)
+![tablet](screenshots/tablet.png)
+![Desktop](screenshots/desktop.png)
+![Desktop active](screenshots/desktop-active.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/faisalalmail/time-tracking-dashboard](https://github.com/faisalalmail/time-tracking-dashboard)
+- Live Site URL: [https://time-tracking-dashboard-mu-ten.vercel.app/](https://time-tracking-dashboard-mu-ten.vercel.app/)
 
 ## My process
 
@@ -54,46 +49,28 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
 Challenges log for this challenge:
 1. display the *report for* and *name* arranged in line with the dp.
+**solution** sometimes things are complicated enough to make you think its not the easy fix you already know!
 
 2. cropping the activity icon a little from the top and make it hide behind the next div instead of showing on top.
-**solution** used negative margin on the image and applied `z-index` property to the divs.
+**solution** used negative margin on the image and applied `z-index` property to the divs. (turns out later in the project its better do put it as a background of the div instead of being an element)
 
 
+*The matter of fact*, I dont think project was challenging, yes it was very new to me but I knew how to do it (in theory)**1.** I googled and read some text and learned how to process data from an array, **2.** I had the idea initially to create the cards as a loop for each item in the array instead of hard coding each card (how to do it is what I am proud to learn). **3** I call this the first project where a CSS grid is in action.
 
+Overall, I would say I am very proud for completing this challenge for one reason *I am glad I spent this time focused on something that I loved doing*
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Looking forward for the next challenge
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [css grid generator](https://cssgrid-generator.netlify.app/) - This tool has made my work with grids much easier
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
