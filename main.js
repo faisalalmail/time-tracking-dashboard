@@ -2,6 +2,7 @@ let tdata;
 const report = document.getElementById("report");
 let frequency;
 let freq;
+let cleaned;
 
 function callDaily(){
     report.innerHTML = "";
@@ -76,6 +77,7 @@ const moreDetails = document.createElement('div');
 moreDetails.classList.add("more-details","right");
 const moreDetailsImg = document.createElement('img');
 moreDetailsImg.src = 'images/icon-ellipsis.svg'
+moreDetailsImg.alt = "More details"
 moreDetails.appendChild(moreDetailsImg);
 /* top row end */
 
