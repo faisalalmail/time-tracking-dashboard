@@ -54,9 +54,11 @@ Users should be able to:
 
 Challenges log for this challenge:
 1. display the *report for* and *name* arranged in line with the dp.
+2. 
 **solution** sometimes things are complicated enough to make you think its not the easy fix you already know!
 
-2. cropping the activity icon a little from the top and make it hide behind the next div instead of showing on top.
+3. cropping the activity icon a little from the top and make it hide behind the next div instead of showing on top.
+4. 
 **solution** used negative margin on the image and applied `z-index` property to the divs. (turns out later in the project its better do put it as a background of the div instead of being an element)
 
 
